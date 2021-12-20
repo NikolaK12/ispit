@@ -1,13 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h2>text</h2>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Turistička agencija ‘’Avanturist’’</title>
+  </head>
+  <body>
+    <header>
+      <h1>Turistička agencija ‘’Avanturist’’</h1>
+      <nav>
+        <ul>
+          <li><a href="#informacije">O nama</a></li>
+          <li><a href="#djelatnosti">Naše djelatnosti</a></li>
+          <li><a href="#kontakt">Kontakt</a></li>
+        </ul>
+      </nav>
+      <hr />
+    </header>
+
+    <main>
+      <h1>Turistička agencija ‘’Avanturist’’</h1>
+      <section id="informacije">
+        <h2>O nama</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit.Etiam dui
+          nisl, ullamcorper in mauris vel, efficitur ornare felis.Phasellus sed
+          luctus libero. Aenean consequat sodales lacus, a pharetra libero
+          posuere eu. Phasellus dictum placerat enim, eu dictum tellus auctor
+          quis. Integer tempus risus ac eleifend commodo. Suspendisse ac
+          faucibus felis, vitae interdum nisi. Phasellus erat lacus, elementum
+          vitae dapibus sit amet, interdum a nulla. Donec malesuada leo pulvinar
+          arcu faucibus fermentum. Etiam semper ultrices ligula, euismod
+          tristique dui tincidunt quis.
+        </p>
+        <img src="/images/team.jpeg" alt="team" />
+      </section>
+
+      <section id="djelatnosti">
+        <h2>Naše djelatnosti</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit.Etiam dui
+          nisl, ullamcorper in mauris vel, efficitur ornare felis. Phasellus sed
+          luctus libero. Aenean consequat sodales lacus, a pharetra libero
+          posuere eu. Phasellus dictum placerat enim, eu dictum tellus auctor
+          quis. Integer tempus risus ac eleifend commodo. Suspendisse ac
+          faucibus felis, vitae interdum nisi. Phasellus erat lacus, elementum
+          vitae dapibus sit amet, interdum a nulla. Donec malesuada leo pulvinar
+          arcu faucibus fermentum. Etiam semper ultrices ligula, euismod
+          tristique dui tincidunt quis.
+        </p>
+        <img src="/images/adventure.jpeg" alt="adventure" />
+      </section>
+
+      <section id="kontakt">
+        <h2>Kontakt</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit.Etiam dui
+          nisl, ullamcorper in mauris vel, efficitur ornare felis. Phasellus sed
+          luctus libero. Aenean consequat sodales lacus, a pharetra libero
+          posuere eu. Phasellus dictum placerat enim, eu dictum tellus auctor
+          quis. Integer tempus risus ac eleifend commodo. Suspendisse ac
+          faucibus felis, vitae interdum nisi. Phasellus erat lacus, elementum
+          vitae dapibus sit amet, interdum a nulla. Donec malesuada leo pulvinar
+          arcu faucibus fermentum. Etiam semper ultrices ligula, euismod
+          tristique dui tincidunt quis.
+        </p>
+        <form method="post">
+          <label for="ime">Ime i prezime</label>
+          <br />
+          <input type="text" name="ime" id="ime" required />
+          <br />
+          <br />
+
+          <label for="email">E-mail</label>
+          <br />
+          <input type="text" name="email" id="email" required />
+          <br />
+          <br />
+
+          <label for="poruka">Poruka</label>
+          <br />
+          <textarea name="poruka" id="poruka" cols="50" rows="5"></textarea>
+          <br />
+          <br />
+
+          <input
+            type="submit"
+            name="slanje"
+            id="slanje"
+            value="Pošalji poruku"
+          />
+        </form>
+      </section>
+      <hr />
+    </main>
+
+    <footer>
+      <p>Avanturist &copy; 2019.</p>
+      <a href="mailto:nikolakunica96@gmail.com"
+        ><img src="/images/icon.png" alt="icon" width="100" height="120"
+      /></a>
+    </footer>
+  </body>
 </html>
